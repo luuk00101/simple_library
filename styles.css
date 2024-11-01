@@ -1,0 +1,36 @@
+#add-book {
+    margin-bottom: 20px;
+}
+
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 12px;
+    border: 2px solid black;
+    width: 350px;
+}
+
+dialog {
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+dialog form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
